@@ -3174,6 +3174,13 @@ public final class Settings {
         public static final String LOCKSCREEN_VIBRATE_ENABLED = "lockscreen.vibrate_enabled";
 
          /**
+         * NFC polling mode configuration key
+         *
+         * @hide
+         */
+        public static final String NFC_POLLING_MODE = "nfc_polling_mode";
+
+         /**
           * Action to perform when the home key is long-pressed.
           * (Default can be configured via config_longPressOnHomeBehavior)
           * 0 - Nothing
